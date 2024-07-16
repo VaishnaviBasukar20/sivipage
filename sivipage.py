@@ -17,7 +17,7 @@ if not love:
 st.success("now you will enter the magical and sweet love story of siviiiiiiiiiii🩷🩷🩷!!!!!!!!!!!!!!!!")
 st.subheader("Chalooo baby abb shuruuu karteee okkkk majhaa cutuuuu❤️❤️❤️")
 st.text("abb suno cutu this is all how it starteddd!!!!!!!!!")
-sona1=i.open("/Users/basut/OneDrive/Documents/sona1stimage.jpg")
+sona1=i.open("images/sona1stimage.jpg")
 st.image(sona1,width=300)
 click=st.button("karoo karoo click")
 
@@ -27,7 +27,7 @@ if click:
            fidhaaaa hogayaaa bygod❤️❤️❤️''')
 time.sleep(5)
 with st.expander("chalo dekhooo yeh apnii pyaari pyaari eyes see"):
-    sona2=i.open("/Users/basut/OneDrive/Documents/sona2ndimage.jpg")
+    sona2=i.open("images/sona2ndimage.jpg")
     st.image(sona2,width=300)
 with st.empty():
     for clock in range(8):
@@ -43,26 +43,26 @@ st.write('''padliii yaa cutu aur bohot haiiii karoo karoo wait
                haaa baby yeh tha mere bday ke din jab hum gaye the
                walk peyyyy🚶‍♀️🚶‍♀️
          ''')
-image1=i.open("/Users/basut/OneDrive/Documents/image 4.jpg")
+image1=i.open("images/image 4.jpg")
 st.image(image1,width=200)
 st.write("yeh mai hu tumse bohot intrest see chat kartehue")
-me=i.open("/Users/basut/OneDrive/Documents/myimagech.jpg")
+me=i.open("images/myimagech.jpg")
 st.image(me,width=200)
 st.write("ha baby jaise taise karke maine tume patalia😚😚😚😚")
 st.subheader("baby yaha see cute cute memories hai apniii sweet sii")
 tab1,tab2=st.tabs(["amritsar trip","vrindhavan trip"])
 with tab1:
-    amr=i.open("/Users/basut/OneDrive/Documents/amritsar1.jpg")
+    amr=i.open("images/amritsar1.jpg")
     st.image(amr,width=300)
-    amr2=i.open("/Users/basut/OneDrive/Documents/amritsar2.jpg")
+    amr2=i.open("images/amritsar2.jpg")
     st.image(amr2,width=300)
     st.write('''yeh tho apne pyaare photos yaad hai baby
                 yeh kichate time shua bhi padathaa😂😂😂
     ''')
 with tab2:
-    vrind1=i.open("/Users/basut/OneDrive/Documents/vrindhavan1.jpg")
+    vrind1=i.open("images/vrindhavan1.jpg")
     st.image(vrind1,width=300)
-    vrid2=i.open("/Users/basut/OneDrive/Documents/vrindhavan2.jpg")
+    vrid2=i.open("images/vrindhavan2.jpg")
     st.image(vrid2,width=300)
     st.write('''bubuuu acha laganaa apni first trip to 
                 vrindhavan ek saat wali photos dekhke
@@ -72,16 +72,16 @@ st.subheader("pyaari hai naa photos")
 st.write("abb dekho apne sweet sweet dates ki photo")
 tab1,tab2=st.tabs(["19/11/2023","18/2/2024"])
 with tab1:
-    date1=i.open("/Users/basut/OneDrive/Documents/date1.jpg")
+    date1=i.open("images/date1.jpg")
     st.image(date1,width=300)
-    date11=i.open("/Users/basut/OneDrive/Documents/date11.jpg")
+    date11=i.open("images/date11.jpg")
     st.image(date11,width=300)
-    date111=open("C:/Users/basut/OneDrive/Documents/date111.mp4","rb")
+    date111=open("images/date111.mp4","rb")
     st.video(date111)
 with tab2:
-    date2 = i.open("/Users/basut/OneDrive/Documents/date2.jpg")
+    date2 = i.open("images/date2.jpg")
     st.image(date2, width=300)
-    date22 = i.open("/Users/basut/OneDrive/Documents/date22.jpg")
+    date22 = i.open("images/date22.jpg")
     st.image(date22, width=300)
 
 st.subheader("abb chota game khelo like lovetester")
@@ -101,7 +101,7 @@ if submit:
 
         st.error("baby yaar sonchooooooo")
 st.subheader("baby yeh favorite lohrii hai pata hai!!!!")
-audioo=open("/Users/basut/OneDrive/Desktop/sona_lorimp3.mp3","rb")
+audioo=open("images/sona_lorimp3.mp3","rb")
 st.audio(audioo.read())
 
 st.header("bubuuu last me apna pyaara dance dekhooo")
@@ -110,6 +110,7 @@ with st.empty():
         time.sleep(.1)
         st.progress(process_completed,text="videoo coming")
 
-pyara=open("/Users/basut/OneDrive/Documents/dance.mp4","rb")
+pyara=open("images/dance.mp4","rb")
 st.video(pyara)
 st.balloons()
+images/amritsar1.jpg
